@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_notasdodia">
+
+    <fragment
+        android:id="@+id/navigation_notasdodia"
+        android:name="com.tcc2.fisiowhatched.ui.Pacientes.Notasdodiapaciente"
+        android:label="Notas do Dia"
+        tools:layout="@layout/notasdodiafragment" />
+
+
+    <fragment
+        android:id="@+id/sobre_menu2"
+        android:name="com.tcc2.fisiowhatched.ui.sobre.menu_sobre2"
+        android:label="@string/menu_sobre"
+        tools:layout="@layout/fragment_menu_sobre2" />
+
+    <fragment
+        android:id="@+id/navigation_detalhes_diario"
+        android:name="com.tcc2.fisiowhatched.ui.diario.DetalhesDiario"
+        android:label="@string/menu_sobre"
+        tools:layout="@layout/activity_detalhes_diario" />
+
+    <fragment
+        android:id="@+id/navigation_lista_diario_paciente"
+        android:name="com.tcc2.fisiowhatched.ui.Pacientes.Lista_Diario_paciente"
+        android:label="@string/menu_diario"
+        tools:layout="@layout/fragment_lista__diario_paciente" />
+
+    <fragment
+        android:id="@+id/navigation_gravardadosdiario"
+        android:name="com.tcc2.fisiowhatched.ui.diario.Gravar_dados_diario"
+        android:label="@string/perfil"
+        tools:layout="@layout/activity_gravar_dados_diario_activity" />
+
+    <fragment
+        android:id="@+id/navigation_listaperfilpaciente"
+        android:name="com.tcc2.fisiowhatched.ui.Pacientes.ListaPerfilPaciente"
+        android:label="Perfil Pacientes"
+        tools:layout="@layout/fragment_listaperfilpaciente" />
+
+    <fragment
+        android:id="@+id/navigation_alterarimagemperfilusuario"
+        android:name="com.tcc2.fisiowhatched.ui.Pacientes.Alterarimagemdeperfil"
+        android:label="@string/alterarimagemdeperfil"
+        tools:layout="@layout/fragment_alterarimagemdeperfil" />
+
+    <fragment
+        android:id="@+id/navigation_perfil_paciente"
+        android:name="com.tcc2.fisiowhatched.ui.Pacientes.Perfil_paciente"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfil_paciente" />
+
+    <fragment
+        android:id="@+id/navigation_perfil_fisioterapeuta"
+        android:name="com.tcc2.fisiowhatched.ui.perfilfisioterapeuta"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfilfisioterapeuta" />
+
+    <fragment
+        android:id="@+id/navigation_alterarimagemperfilfisioterapeuta"
+        android:name="com.tcc2.fisiowhatched.ui.alterarimagemfisioterapeuta"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_alterarimagemfisioterapeuta" />
+
+
+
+
+
+
+
+
+
+
+</navigation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_notasdodia"
+        android:icon="@drawable/menu_diario"
+        android:title="Notas do Dia" />
+
+
+
+    <item
+        android:id="@+id/navigation_listaperfilpaciente"
+        android:icon="@drawable/icone_pacientes"
+        android:title="Pacientes"/>
+
+    <item
+        android:id="@+id/navigation_perfil_fisioterapeuta"
+        android:icon="@drawable/ic_sair_24dp"
+        android:title="Fisioterapeuta" />
+
+
+    <item
+        android:id="@+id/sobre_menu2"
+        android:icon="@drawable/menu_sobre"
+        android:title="@string/menu_sobre" />
+
+
+
+</menu>

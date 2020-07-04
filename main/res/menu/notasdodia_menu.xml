@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fazer_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        android:icon="@drawable/ic_sair_24dp"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ver_todos"
+        android:orderInCategory="100"
+        android:title="Ver Todos"
+        android:icon="@drawable/ic_ver"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/notas_do_dia"
+        android:orderInCategory="100"
+        android:title="Notas do dia"
+        android:icon="@drawable/ic_ver"
+        app:showAsAction="never" />
+
+</menu>

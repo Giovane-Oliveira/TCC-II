@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/exercicios_menu">
+
+    <fragment
+        android:id="@+id/exercicios_menu"
+        android:name="com.tcc2.fisiowhatched.ui.exercicios.exercicios_menu"
+        android:label="@string/menu_exercicios"
+        tools:layout="@layout/exercicios_menu" />
+
+    <fragment
+        android:id="@+id/diario_menu"
+        android:name="com.tcc2.fisiowhatched.ui.diario.diario_menu"
+        android:label="@string/menu_diario"
+        tools:layout="@layout/diario_menu" />
+
+    <fragment
+    android:id="@+id/sobre_menu"
+    android:name="com.tcc2.fisiowhatched.ui.sobre.menu_sobre"
+    android:label="@string/menu_sobre"
+    tools:layout="@layout/sobre_menu" />
+
+    <fragment
+        android:id="@+id/navigation_detalhes_diario"
+        android:name="com.tcc2.fisiowhatched.ui.diario.DetalhesDiario"
+        android:label="@string/menu_sobre"
+        tools:layout="@layout/activity_detalhes_diario" />
+
+    <fragment
+        android:id="@+id/navigation_perfil_paciente"
+        android:name="com.tcc2.fisiowhatched.ui.Pacientes.Perfil_paciente"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfil_paciente" />
+
+    <fragment
+        android:id="@+id/navigation_gravardadosdiario"
+        android:name="com.tcc2.fisiowhatched.ui.diario.Gravar_dados_diario"
+        android:label="@string/perfil"
+        tools:layout="@layout/activity_gravar_dados_diario_activity" />
+
+    <fragment
+        android:id="@+id/navigation_alterarimagemperfilusuario"
+        android:name="com.tcc2.fisiowhatched.ui.Pacientes.Alterarimagemdeperfil"
+        android:label="@string/alterarimagemdeperfil"
+        tools:layout="@layout/fragment_alterarimagemdeperfil" />
+
+    <fragment
+        android:id="@+id/navigation_destalhesexercicio"
+        android:name="com.tcc2.fisiowhatched.ui.exercicios.DetalhesExercicio"
+        android:label="@string/perfil"
+        tools:layout="@layout/activity_detalhes_exercicio" />
+
+
+</navigation>

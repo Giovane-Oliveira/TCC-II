@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">FisioWhatched</string>
+    <string name="recuperar">recuperar</string>
+    <string name="logar">login</string>
+    <string name="senha">Senha*</string>
+    <string name="email">E-mail*</string>
+    <string name="ins_email">insira o e-mail</string>
+    <string name="ins_senha">insira a senha</string>
+    <string name="logout">logout</string>
+    <string name="menu_exercicios">Exercícios</string>
+    <string name="menu_diario">Diário</string>
+    <string name="menu_sobre">Sobre</string>
+    <string name="addtitulo">Adicionar Titulo</string>
+    <string name="insiraotexto">Insira o texto aqui</string>
+    <string name="enviaranotacao">Enviar</string>
+    <string name="insiraonomedopaciente">Nome no paciente</string>
+    <string name="btn_alterar_detalhes_anotacao">Alterar</string>
+    <string name="editar_nota_detalhes">Editar</string>
+    <string name="string_data">Insira a data</string>
+    <string name="username">Paciente:*</string>
+    <string name="ins_name">Insira o nome do paciente</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_submit">Enviar</string>
+    <string name="label_type_your_comment">Insira o nome do paciente</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="pacientes">Pacientes</string>
+    <string name="cadastrar_usuario">Cadastrar</string>
+    <string name="title_pacientes">Pacientes</string>
+    <string name="title_cadastrar">Cadastrar</string>
+    <string name="perfil">Perfil</string>
+    <string name="alterarimagemdeperfil">Alterar Imagem de Perfil</string>
+    <string name="enviar">Enviar</string>
+    <string name="obter_item">Obter Imagem</string>
+    <string name="galeria">Galeria</string>
+    <string name="camera">Camera</string>
+    <string name="codigo">Insira o código</string>
+    <string name="insiraotitulo">Insira o titulo</string>
+</resources>

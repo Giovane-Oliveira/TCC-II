@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/exercicios_menu"
+        android:icon="@drawable/exercicios"
+        android:title="@string/menu_exercicios" />
+
+    <item
+        android:id="@+id/diario_menu"
+        android:icon="@drawable/menu_diario"
+        android:title="@string/menu_diario" />
+
+
+    <item
+        android:id="@+id/navigation_perfil_paciente"
+        android:icon="@drawable/icone_pacientes"
+        android:title="@string/perfil" />
+
+    <item
+        android:id="@+id/sobre_menu"
+        android:icon="@drawable/menu_sobre"
+        android:title="@string/menu_sobre" />
+
+
+
+
+
+</menu>
